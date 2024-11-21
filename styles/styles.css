@@ -1,6 +1,6 @@
 :root {
     --heading-background-color: darkblue;
-    --headind-color: darkblue;
+    --heading-color: darkblue;
     --text-align: center;
 }
 nav {
@@ -15,7 +15,7 @@ nav a {
 }
 
 h1 {
-    color: var(--headind-color);
+    color: var(--heading-color);
 }
 
 main img {
