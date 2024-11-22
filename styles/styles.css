@@ -1,7 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --heading-background-color: darkblue;
     --heading-color: darkblue;
     --text-align: center;
+    --font-size: 1rem;
 }
 nav {
     background-color: var(--heading-background-color);
@@ -19,6 +26,7 @@ h1 {
 }
 
 main img {
+    float: right;
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -53,4 +61,14 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: var(--text-align);
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: crimson;
+    color: #000;
 }
