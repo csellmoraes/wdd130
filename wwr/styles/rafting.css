@@ -2,10 +2,33 @@
 
 }
 
+head {
+    color: blue;
+}
+
+footer img {
+    width: 100px;
+}
+
+.rubik {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.nunito {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
 .hero {
 
 }
 
-.sociallinks {
+.sociallinks img {
     text-decoration: none;
+    width: 100px;
 }
