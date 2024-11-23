@@ -1,34 +1,40 @@
 :root {
-
+    --heading-text-color: #FFB703;
+    --heading-font: "Rubik", sans-serif;
+    --paragraph-font: "Nunito", sans-serif;
+    #023047
+    #8ECAE6
 }
 
-head {
-    color: blue;
+h1, h2 {
+    color: var(--heading-text-color); 
+    font-family: 
 }
 
-footer img {
-    width: 100px;
+p {
+    color: #023047;
+    font-family: "Nunito", sans-serif;
+}
+
+footer {
+    width: 50px;
+    font-family: "Nunito", sans-serif;
+}
+
+
+
+.hero {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .rubik {
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
 }
 
 .nunito {
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-}
-
-.hero {
-
-}
-
-.sociallinks img {
-    text-decoration: none;
-    width: 100px;
-}
+  }
