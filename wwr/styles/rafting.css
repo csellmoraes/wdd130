@@ -21,12 +21,36 @@ footer {
     font-family: "Nunito", sans-serif;
 }
 
+h1 {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    color: #FFB703;
+}
 
+article {
+    position: absolute;
+
+}
+article img {
+    top: 700px;
+    left: 50px;
+    color: #FFB703;
+    background-color: gray;
+}
 
 .hero {
+    position: relative;
+}
+.hero img{
     display: block;
     width: 100%;
     height: auto;
+}
+
+.hero2 img {
+    width: 200px;
+    float: right;
 }
 
 .rubik {
@@ -37,4 +61,4 @@ footer {
 .nunito {
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
-  }
+}
