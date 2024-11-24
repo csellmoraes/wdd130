@@ -1,4 +1,4 @@
-:root {
+/*:root {
     --heading-text-color: #FFB703;
     --heading-font: "Rubik", sans-serif;
     --paragraph-font: "Nunito", sans-serif;
@@ -7,10 +7,6 @@
     --color-text: #219EBC;
 }
 
-section img {
-    width: 400px;
-    height: auto;
-    padding: 2px;
 
 }
 
@@ -32,18 +28,23 @@ footer img {
 h1 {
     position: absolute;
     top: 10px;
-    left: 240px;
     color: #FFB703;
     background-color: gray; 
     text-align: center;
+    width: 100%;
 }
 
 .hero2 {
     position: absolute;
-    top: 400px;
-    left: 240px;
+    top: 600px;
     float: right;
     background-color: gray;
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: right;
+    
+    
 }
 
 .hero {
@@ -59,4 +60,89 @@ h1 {
     text-decoration: none;
     width: 40px;
     height: auto;
+} */
+
+:root {
+    --heading-font: "Nunito", sans-serif;
+    --color: #FFB703;
+}
+
+body {
+    margin: 20px;
+    padding: 20px;
+    font-family: "Rubik", sans-serif;
+}
+
+.hero {
+    position: relative; 
+    width: 100%; 
+    overflow: hidden; 
+}
+
+.hero img {
+    width: 100%; 
+    display: block; 
+    height: auto; 
+}
+
+.hero h1 {
+    position: absolute;
+    top: 10%;
+    font-size: 3rem;
+    color: #219EBC;
+    background-color: rgba(0, 0, 0, 0.7); 
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.hero article {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    right: 5%;
+    background-color: rgba(12, 71, 139, 0.7); 
+    color: var(--color);
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.hero article p {
+    margin: 0 0 20px;
+    line-height: 1.6;
+    font-family: var(--heading-font);
+}
+
+.hero article img {
+    float: right;
+    margin: 0 0 10px 20px; 
+    max-width: 20%; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+footer img {
+    width: 50px;
+    text-decoration: none;
+    font-family: var(--heading-font);
+}
+
+section img {
+    width: 500px;
+    height: auto;
+    padding: 2px;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: #023047;
+}
+
+.sociallinks img {
+    text-decoration: none;
+}
+
+section p {
+    color: #8ECAE6;
 }
