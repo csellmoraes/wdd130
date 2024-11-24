@@ -2,8 +2,9 @@
     --heading-text-color: #FFB703;
     --heading-font: "Rubik", sans-serif;
     --paragraph-font: "Nunito", sans-serif;
-    #023047
-    #8ECAE6
+    --background-color: #023047;
+    --background: #8ECAE6;
+    --color-text: #219EBC;
 }
 
 h1, h2 {
