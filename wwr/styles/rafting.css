@@ -28,15 +28,15 @@ h1 {
     color: #FFB703;
 }
 
-article {
+article p {
     position: absolute;
-
+    top: 410px;
+    left: 55px;
+    color: #FFB703;
 }
 article img {
-    top: 700px;
-    left: 50px;
-    color: #FFB703;
-    background-color: gray;
+    float: right;
+    padding: 10px;
 }
 
 .hero {
@@ -46,11 +46,6 @@ article img {
     display: block;
     width: 100%;
     height: auto;
-}
-
-.hero2 img {
-    width: 200px;
-    float: right;
 }
 
 .sociallinks img {
