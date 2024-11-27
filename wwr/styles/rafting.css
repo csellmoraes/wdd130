@@ -1,6 +1,11 @@
 :root {
     --heading-font: "Nunito", sans-serif;
     --color: #FFB703;
+    /*--primary-color: #4a90e2; /* Example primary color */
+    /*--secondary-color: #ff6347; /* Example secondary color */
+    /*--background-color: #f0f8ff; /* Light background for readability */
+    /*--text-color: #333; /* Dark text for contrast */
+    /*--article-bg-color: rgba(255, 255, 255, 0.8)*/
 }
 
 body {
@@ -12,7 +17,8 @@ body {
 .hero {
     position: relative; 
     width: 100%; 
-    overflow: hidden; 
+    overflow: hidden;
+    
 }
 
 .hero img {
@@ -41,7 +47,6 @@ body {
     color: var(--color);
     padding: 20px;
     border-radius: 10px;
-
 }
 
 .hero article p {
