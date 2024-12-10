@@ -185,7 +185,7 @@
   main p {
     width: 100%;
     padding: .5rem;
-    border: 1px solid rgba(233, 219, 219, 0,1);
+    border: 1px solid rgba(233, 219, 219);
     border-radius: 10px;
     background-color: rgb(166, 203, 228);
     margin-bottom: 10px;
@@ -239,7 +239,7 @@
   form {
     width: 670px;
     padding: 1rem;
-    border: 1px solid rgba(233, 219, 219, 0,1);
+    border: 1px solid rgb(168, 126, 126);
     border-radius: 10px;
     display: grid;
     background-color: rgb(118, 145, 175);
