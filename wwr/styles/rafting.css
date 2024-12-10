@@ -16,6 +16,8 @@
     --primary-color: #0077cc;
     --secondary-color: #333;
     --background-color: #f4f4f4;
+    --margin-botton: 10px;
+    --border-radious: 8px;
     /*--primary-color: #4a90e2; /* Example primary color */
     /*--secondary-color: #ff6347; /* Example secondary color */
     /*--background-color: #f0f8ff; /* Light background for readability */
@@ -31,7 +33,7 @@
     padding: 10px;
     background: var(--background-color);
     border-bottom: 2px solid #ddd;
-    border-radius: 10px;
+    border-radius: var(--border-radious);
   }
   
   header .logo {
@@ -39,7 +41,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;
+    border-radius: var(--border-radious);
   }
   
   nav ul {
@@ -52,7 +54,7 @@
     text-decoration: none;
     color: var(--secondary-color);
     font-weight: bold;
-    border-radius: 10px;
+    border-radius: var(--border-radious);
     align-items: center;
   }
   
@@ -70,7 +72,7 @@
   .hero-img {
     width: 100%;
     display: block;
-    border-radius: 10px;
+    border-radius: var(--border-radious);
     height: auto;
   }
   
@@ -97,7 +99,7 @@
     top: 65%;
     left: 5%;
     right: 5%;
-    border-radius: 10px;
+    border-radius: var(--border-radious);
   }
   
   .hero .client-img {
@@ -112,7 +114,7 @@
   
   .history h2 {
     font-size: 2rem;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-botton);
     color: #023047;
   }
   
@@ -131,7 +133,7 @@
   
   .adventures img {
     width: 100%;
-    border-radius: 8px;
+    border-radius: var(--border-radious);
 
   }
   
@@ -186,9 +188,9 @@
     width: 100%;
     padding: .5rem;
     border: 1px solid rgba(233, 219, 219);
-    border-radius: 10px;
+    border-radius: var(--border-radious);
     background-color: rgb(166, 203, 228);
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-botton);
     }
 
   section {
@@ -197,7 +199,7 @@
 
   .contact-form label, .contact-form input, .contact-form textarea, .contact-form button {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: var(--margin-botton);
     width: 100%;
   }
 
@@ -227,7 +229,7 @@
     background-color: greenyellow;
     color: #fff;
     border: none;
-    border-radius: .5rem;
+    border-radius: var(--border-radious);
     padding: .75rem;
     font-size: 1.2rem;
   }
@@ -240,7 +242,7 @@
     width: 670px;
     padding: 1rem;
     border: 1px solid rgb(168, 126, 126);
-    border-radius: 10px;
+    border-radius: var(--border-radious);
     display: grid;
     background-color: rgb(118, 145, 175);
     background-size: auto;
