@@ -18,6 +18,7 @@
     --background-color: #f4f4f4;
     --margin-botton: 10px;
     --border-radious: 8px;
+    --width: 100%;
     /*--primary-color: #4a90e2; /* Example primary color */
     /*--secondary-color: #ff6347; /* Example secondary color */
     /*--background-color: #f0f8ff; /* Light background for readability */
@@ -66,11 +67,11 @@
     position: relative;
     text-align: center;
     overflow: hidden;
-    width: 100%;
+    width: var(--width);
   }
   
   .hero-img {
-    width: 100%;
+    width: var(--width);
     display: block;
     border-radius: var(--border-radious);
     height: auto;
@@ -86,7 +87,7 @@
     background: rgba(0, 0, 0, 0.5);
     padding: 10px 20px;
     color: #219EBC;
-    width: 100%;
+    width: var(--width);
     text-align: center;
     color: #023047;
   }
@@ -132,7 +133,7 @@
   }
   
   .adventures img {
-    width: 100%;
+    width: var(--width);
     border-radius: var(--border-radious);
 
   }
@@ -184,8 +185,8 @@
     padding: 20px;
   }
 
-  main p {
-    width: 100%;
+  .contact main p {
+    width: var(--width);
     padding: .5rem;
     border: 1px solid rgba(233, 219, 219);
     border-radius: var(--border-radious);
@@ -226,7 +227,6 @@
 
   button {
     margin: 1rem;
-    background-color: greenyellow;
     color: #fff;
     border: none;
     border-radius: var(--border-radious);
@@ -259,10 +259,4 @@
   input, select, textarea {
     padding: 0.5rem;
     font-size: 1.1rem;
-  }
-
-  input [type="checkbox"] {
-    width: 22px;
-    height: 22px;
-    vertical-align: bottom;
   }
