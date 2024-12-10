@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Page</title>
+  <meta name="description" content="">
+  <meta name="author" content="Cristiane Sell dos Santos de Moraes">
+  <link rel="stylesheet" href="styles/rafting.css">
+  
+  <link rel="stylesheet" href="styles/rafting.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <img src="images/logo_site.jpg" alt="Rafting Adventures Logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contact Us</h1>
+    <h2>Contac Information</h2>
+  <p>Rafting Momentum</p>
+  <p>Adress: Felipe Schimit Street, 151 - Florianópolis</p>
+  <p>Phone: +1 (555) 555-5555</p>
+  <p>Email: contact@rafting.com</p>
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11893.560146294005!2d-48.547841798658425!3d-27.594255473370115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1733517736611!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+    <section class="employees">
+      <h2>Meet Our Team</h2>
+      <div class="employee">
+          <img src="images/Employee 1.jpg" alt="Employee 1">
+          <p>John Mayer - Manager</p>
+      </div>
+      <div class="employee">
+          <img src="images/Employee 2.jpg" alt="Employee 2">
+          <p>Jane Austin - Guide</p>
+      </div>
+      <div class="employee">
+          <img src="images/Employee 3.jpg" alt="Employee 3">
+          <p>Chris Evans - Customer Support</p>
+      </div>
+  </section>
+  <section class="contact-form">
+    <h2>Contact Us</h2>
+    <form action="submit_form.php" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label>Purpose of Message:</label>
+        <input type="radio" id="general" name="purpose" value="general" required>
+        <label for="general">General Inquiry</label>
+        <input type="radio" id="reservation" name="purpose" value="reservation">
+        <label for="reservation">Reservation Question</label>
+        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+        <label for="suggestion">Website Suggestion</label>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <input type="checkbox" id="newsletter" name="newsletter">
+        <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+
+        <button type="submit">Send</button>
+    </form>
+</section>    
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Rafting Momentum. Designed by Cristiane Sell dos Santos de Moraes</p>
+    <div class="social-icons">
+      <a href="#"><img src="images/facebook_logo.svg" alt="Facebook"></a>
+      <a href="#"><img src="images/instagram_logo.svg" alt="Instagram"></a>
+      <a href="#"><img src="images/twitter_logo.svg" alt="Twitter"></a>
+    </div>
+  </footer>
+</body>
+</html>
