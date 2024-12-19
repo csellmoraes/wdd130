@@ -91,6 +91,16 @@
     text-align: center;
     color: #023047;
   }
+
+  .hero h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
   
   .hero article {
     position: absolute;
@@ -248,7 +258,7 @@
     background-size: auto;
   }
 
-  label,input, button, select, textarea {
+  label, input, button, select, textarea {
     font-family: sans-serif;
   }
 
@@ -259,4 +269,123 @@
   input, select, textarea {
     padding: 0.5rem;
     font-size: 1.1rem;
+  }
+
+  .newsletter {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .newsletter form {
+    display: inline-block;
+  }
+  
+  .newsletter label {
+    margin-right: 10px;
+  }
+  
+  .newsletter input {
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .call-to-action {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #004080;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .grid-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .grid-item {
+    text-align: center;
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .cta {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #004080;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .trips-descriptions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .trips-descriptions article {
+    flex: 1 1 calc(33.333% - 20px);
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .trips-descriptions img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .trips-descriptions h3 {
+    margin: 10px 0;
+  }
+  
+  .trips-table {
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  table th {
+    background-color: #004080;
+    color: white;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f4f4f4;
   }
