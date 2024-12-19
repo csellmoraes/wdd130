@@ -19,11 +19,6 @@
     --margin-botton: 10px;
     --border-radious: 8px;
     --width: 100%;
-    /*--primary-color: #4a90e2; /* Example primary color */
-    /*--secondary-color: #ff6347; /* Example secondary color */
-    /*--background-color: #f0f8ff; /* Light background for readability */
-    /*--text-color: #333; /* Dark text for contrast */
-    /*--article-bg-color: rgba(255, 255, 255, 0.8)*/
   }
   
   header {
@@ -53,6 +48,7 @@
   
   nav ul li a {
     text-decoration: none;
+    text-decoration-color: #004080;
     color: var(--secondary-color);
     font-weight: bold;
     border-radius: var(--border-radious);
